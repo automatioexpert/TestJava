@@ -1,0 +1,7 @@
+First created a new Java project
+Added src/main/java
+Added src/test/java
+Added TestNG testcase following by testng.xml
+Added maven surefire plugin 
+Performed execution using pom.xml file
+Added windows batch file for all test exceution and committed all the code changes.!!
