@@ -7,3 +7,4 @@ Performed execution using pom.xml file
 Added windows batch file for all test exceution and committed all the code changes.!!
 
 --Notes: Pushing this file after making changes from local eclipse.
+--Notes from GitHub:Adding this note from GitHub.
