@@ -1,0 +1,93 @@
+
+C:\Users\valmiki\git\repository144\TestJava>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2401:4900:3cbb:bbcb::1
+   IPv6 Address. . . . . . . . . . . : 2401:4900:3cbb:bbcb:d0b7:b345:a02e:be89
+   Temporary IPv6 Address. . . . . . : 2401:4900:3cbb:bbcb:2de7:e23d:5292:4839
+   Link-local IPv6 Address . . . . . : fe80::600a:8514:bd3d:8a47%14
+   IPv4 Address. . . . . . . . . . . : 192.168.1.107
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::1227:f5ff:fe58:1989%14
+                                       192.168.1.1
+
+C:\Users\valmiki\git\repository144\TestJava>java -version
+java version "1.8.0_202"
+Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
+Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)
+
+C:\Users\valmiki\git\repository144\TestJava>whoami
+desktop-n60qb27\valmiki
+
+C:\Users\valmiki\git\repository144\TestJava>echo "Automation Execution Started"
+"Automation Execution Started"
+
+C:\Users\valmiki\git\repository144\TestJava>sleep 15
+'sleep' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\valmiki\git\repository144\TestJava>cd C:\Users\valmiki\git\repository144\TestJava
+
+C:\Users\valmiki\git\repository144\TestJava>mvn clean install test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------< TestJava2:TestJava2 >-------------------------
+[INFO] Building TestJava2 19.3.1-SNAPSHOT23Dec2022VVAutomationExpert
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ TestJava2 ---
+[INFO] Deleting C:\Users\valmiki\git\repository144\TestJava\target
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ TestJava2 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\valmiki\git\repository144\TestJava\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ TestJava2 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\Users\valmiki\git\repository144\TestJava\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ TestJava2 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\Users\valmiki\git\repository144\TestJava\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ TestJava2 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\Users\valmiki\git\repository144\TestJava\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ TestJava2 ---
+[INFO] Using auto detected provider org.apache.maven.surefire.testng.TestNGProvider
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 62712
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 23, 2022 9:23:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Dec 23, 2022 9:23:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 106
+Dec 23, 2022 9:23:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 108 of 106
